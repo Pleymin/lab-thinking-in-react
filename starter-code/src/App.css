@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .App-logo {
@@ -25,4 +26,32 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.btn-SearchBar {
+  width: 40vw;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 2em;
+}
+
+.TableList {
+margin-top:2em;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Stocked {
+  color: red
+}
+
+th {
+  background-color: lightgrey;
+  height: 2em;
+}
+
+td {
+  width: 20vw;
+  height: 2em;
+  border-bottom: solid lightgrey 0.01em;
 }
